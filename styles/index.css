@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    height: 300vh;
+    height: 500vh;
     width: 100%;
   
 }
@@ -12,11 +12,11 @@ body {
     justify-content: flex-end;
     align-items: center;
     padding: 20px 20px;
-    width: 80%;
-    margin-left: 8rem;
+    width: 1100px;
+    margin-left: 5rem;
 }
 
-#nav-title {
+.img-logo {
     margin-right: auto;
     font-size: 1.5em;
 }
@@ -69,7 +69,7 @@ header li {
     line-height: 54px;
     /* or 123% */
     color: #2F281E;
-    max-width: 500px;
+    max-width: 600px;
     min-height: 100px;
 
 }
@@ -114,7 +114,7 @@ header li {
 
 
 .img-jumping {
-    width: 500px;
+    width: 450px;
     height: 500px;
 }
 
@@ -144,19 +144,19 @@ section {
 
 .container-cards {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 20px; 
+    padding: 10px 10px; 
 }
 
 .card {
     max-width: 240px;
-    min-height: 178px;
+    min-height: 240px;
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
     display: flex;
     align-items: flex-end;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -166,6 +166,7 @@ section {
     font-weight: 600;
     font-size: 22px;
     line-height: 33px;
+    margin-top: 20px;
 }
 .card__info {
     font-family: 'Poppins', sans-serif;
@@ -177,9 +178,45 @@ section {
 }
 
 .fa-arrow-pointer {
-    Width: 20px;
-    Height: 20px;
-    background-color: red;
+    Width: 51px;
+    Height: 50px;
+    background-color: rgba(119, 82, 190, 1);
+    border-radius: 19px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fa-stumbleupon {
+    background-color: rgba(250, 176, 5, 1);
+    Width: 51px;
+    Height: 50px;
+    border-radius: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.fa-heart {
+   background-color: rgba(240, 62, 61, 1);
+}
+
+.fa-hourglass-half {
+    background-color:rgba(77, 173, 247, 1);
+}
+
+.fa-solid {
+    Width: 51px;
+    Height: 50px;
+    border-radius: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+
 }
 
 .card-heading {
@@ -210,6 +247,59 @@ section {
 }
 
 .design-professionals-container {
-    width: 1110px;
-    height: 574px;
+    width: 1100px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
+
+.design-section {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.design-info {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #544837;
+}
+
+.design-header {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 54px;
+/* identical to box height */
+color: #2F281E;
+}
+
+.design-h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    color: #2F281E;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.img-teacher {
+    width: 400px;
+    height: 500px;
+}
+
